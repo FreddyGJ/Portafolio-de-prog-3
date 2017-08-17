@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/enfermedad.css') }}">
+    <title>Farmacia Hormigos</title>
+</head>
+<body>
+<h1>¿Crees tener una infeccion?</h1>
+<p>Informacion útil</p>
+<div>
+<p>Infección es la invasión de un anfitrión por un microorganismo patógeno, su multiplicación en los tejidos y la
+    reacción del anfitrión a su presencia y a la de sus posibles toxinas. Las infecciones pueden deberse a bacterias,
+    hongos, virus, protozoos o priones. Las infecciones pueden ser además locales o sistémicas.</p>
+</div>
+<div>
+    <p> Fases de infeccion: </p>
+    <ol>
+        <ul>Infección lítica: En una infección, un virus penetra en una célula, hace copias de sí mismo y destruye la célula.</ul>
+        <ul>Infección lisógena: En una infección lisógena, un virus integra su ADN en el ADN de la célula anfitriona y
+            la información génica del virus se duplica junto a la del ADN de la célula anfitriona.</ul>
+    </ol>
+</div>
+<div>
+    <p> Causas: </p>
+    <ol>
+        <ul>Las infecciones son el resultado de la incapacidad del cuerpo humano para combatir microorganismos externos
+        que pueden dañarle y producir enfermedades si no son tratados.</ul>
+        <ul>Son de naturaleza viral o bacteriana y pueden estar causadas por hongos o parasitos.</ul>
+        <ul>Existen muchas infecciones tanto raras como comunes y todas con causas y origenes muy distintos asi como con
+            diferentes formas de tratarlas para convatirlas</ul>
+    </ol>
+</div>
+<div>
+<h2>¿Que deberias usar?</h2>
+<ol>
+    <ul>Se debe tomar antibiotico, visite a su medico para la receta.</ul>
+    <ul>Antes de ir a la visita puede utilizar Clorhexidina(Anticeptico bucal).</ul>
+</ol>
+</div>
+<div><a href="{{ url_for('cabeza') }}">atrás</a></div>
+<div><a href="{{ url_for('inicio') }}">Volver al menu principal</a></div>
+</body>
+</html>
